@@ -90,7 +90,7 @@ The t-SNE embedding visualization (report Figure 2) is generated with
 
 | Artifact | Generating code | Output |
 |---|---|---|
-| Table 1 (wiki, N/P) | `train.py` -> `make_table1.py` | `results/table1/`, `figures/table1_wiki_*.csv` |
+| Table 1 (wiki, N/P) | `train.py` -> `make_table1.py` | `results/Table1/`, `figures/table1_wiki_*.csv` |
 | FewRel 2.0 (pubmed) | `train_da.py` -> `make_table1.py` | `results/table1_pubmed/`, `figures/table1_pubmed_*.csv` |
 | Figure 1 (ablation) | `train.py` -> `weight_ablation.py` | `results/ablation/`, `figures/figure3_ablation.png` |
 | Figure 2 (t-SNE) | `train_clusters_visualize.py` | `figures/trained_clusters_*.png` |
