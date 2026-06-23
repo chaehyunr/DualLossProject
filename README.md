@@ -35,9 +35,9 @@ Final/
 │   ├── collect_existing.sh      # collect existing JSON into results/ (plot without re-training)
 │   └── slurm_run.sh             # Alliance Canada submission (table1|da|ablation)
 ├── results/                     # run-result JSON (created/collected at run time)
-│   ├── table1/                  # t1{N,P}_{model}_{setting}.json
-│   ├── table1_pubmed/           # da{N,P}_{model}_{setting}_pubmed.json
-│   └── ablation/                # abl_{N,P}_t5_{tag}.json
+│   ├── Table1/FewRel1.0         # t1{N,P}_{model}_{setting}.json
+│   ├── Table1/FewRewl2.0        # da{N,P}_{model}_{setting}_pubmed.json
+│   └── Figure1/                 # abl_{N,P}_t5_{tag}.json
 └── figures/                     # generated tables (CSV) and figures (PNG)
 ```
 
