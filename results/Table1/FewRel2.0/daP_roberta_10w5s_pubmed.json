@@ -1,0 +1,31 @@
+{
+  "run_id": "daP_roberta_10w5s_pubmed",
+  "model_name": "models/roberta-base",
+  "n_way": 10,
+  "k_shot": 5,
+  "dev_domain": "wiki",
+  "eval_domain": "pubmed",
+  "cl_weight": 1.0,
+  "weight_decay": 0.01,
+  "cl_numerator": "P",
+  "temperature": 0.5,
+  "seed": 42,
+  "best_dev_acc": 0.9731999826431275,
+  "test_acc": 0.6176999863485495,
+  "test_acc_std": 0.07007170271481386,
+  "test_acc_ci95": 0.005606903957270098,
+  "n_test_episodes": 600,
+  "per_relation_acc": {
+    "occurs_in": 0.498,
+    "classified_as": 0.425,
+    "inheritance_type_of": 0.9063333333333333,
+    "causative_agent_of": 0.417,
+    "ingredient_of": 0.6396666666666667,
+    "gene_plays_role_in_process": 0.6823333333333333,
+    "is_normal_tissue_origin_of_disease": 0.42733333333333334,
+    "biological_process_involves_gene_product": 0.8573333333333333,
+    "gene_found_in_organism": 0.762,
+    "is_primary_anatomic_site_of_disease": 0.562
+  },
+  "episodes": 2000
+}

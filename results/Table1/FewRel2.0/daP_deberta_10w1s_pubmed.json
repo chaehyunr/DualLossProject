@@ -1,0 +1,31 @@
+{
+  "run_id": "daP_deberta_10w1s_pubmed",
+  "model_name": "models/microsoft__deberta-v3-base",
+  "n_way": 10,
+  "k_shot": 1,
+  "dev_domain": "wiki",
+  "eval_domain": "pubmed",
+  "cl_weight": 1.0,
+  "weight_decay": 0.01,
+  "cl_numerator": "P",
+  "temperature": 0.5,
+  "seed": 42,
+  "best_dev_acc": 0.6847999858856201,
+  "test_acc": 0.16569999558230242,
+  "test_acc_std": 0.05747036752888933,
+  "test_acc_ci95": 0.004598587142015799,
+  "n_test_episodes": 600,
+  "per_relation_acc": {
+    "occurs_in": 0.133,
+    "classified_as": 0.109,
+    "inheritance_type_of": 0.23133333333333334,
+    "causative_agent_of": 0.10866666666666666,
+    "ingredient_of": 0.195,
+    "gene_plays_role_in_process": 0.14666666666666667,
+    "is_normal_tissue_origin_of_disease": 0.14533333333333334,
+    "biological_process_involves_gene_product": 0.25533333333333336,
+    "gene_found_in_organism": 0.157,
+    "is_primary_anatomic_site_of_disease": 0.17566666666666667
+  },
+  "episodes": 2000
+}

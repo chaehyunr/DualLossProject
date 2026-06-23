@@ -1,0 +1,31 @@
+{
+  "run_id": "da_t5_5w1s_pubmed",
+  "model_name": "models/t5-small",
+  "n_way": 5,
+  "k_shot": 1,
+  "dev_domain": "wiki",
+  "eval_domain": "pubmed",
+  "cl_weight": 1.0,
+  "weight_decay": 0.01,
+  "cl_numerator": "P",
+  "temperature": 0.5,
+  "seed": 42,
+  "best_dev_acc": 0.7247999769449234,
+  "test_acc": 0.5093333198254307,
+  "test_acc_std": 0.12523400030737852,
+  "test_acc_ci95": 0.010020807040553883,
+  "n_test_episodes": 600,
+  "per_relation_acc": {
+    "occurs_in": 0.3561643835616438,
+    "classified_as": 0.32108843537414966,
+    "inheritance_type_of": 0.7374570446735396,
+    "causative_agent_of": 0.4240506329113924,
+    "ingredient_of": 0.7287671232876712,
+    "gene_plays_role_in_process": 0.5185964912280702,
+    "is_primary_anatomic_site_of_disease": 0.37662337662337664,
+    "is_normal_tissue_origin_of_disease": 0.522360248447205,
+    "biological_process_involves_gene_product": 0.6164473684210526,
+    "gene_found_in_organism": 0.5027027027027027
+  },
+  "episodes": 2000
+}

@@ -1,0 +1,31 @@
+{
+  "run_id": "daN_bert_5w5s_pubmed",
+  "model_name": "models/bert-base-uncased",
+  "n_way": 5,
+  "k_shot": 5,
+  "dev_domain": "wiki",
+  "eval_domain": "pubmed",
+  "cl_weight": 1.0,
+  "weight_decay": 0.01,
+  "cl_numerator": "N",
+  "temperature": 0.5,
+  "seed": 42,
+  "best_dev_acc": 0.9343999779224396,
+  "test_acc": 0.8813333103060722,
+  "test_acc_std": 0.08035477075637519,
+  "test_acc_ci95": 0.006429720767213534,
+  "n_test_episodes": 600,
+  "per_relation_acc": {
+    "occurs_in": 0.8570491803278688,
+    "classified_as": 0.6794701986754967,
+    "inheritance_type_of": 0.976051779935275,
+    "causative_agent_of": 0.829655172413793,
+    "ingredient_of": 0.9733333333333334,
+    "biological_process_involves_gene_product": 0.980794701986755,
+    "gene_found_in_organism": 0.950632911392405,
+    "is_normal_tissue_origin_of_disease": 0.8498461538461538,
+    "is_primary_anatomic_site_of_disease": 0.7735593220338983,
+    "gene_plays_role_in_process": 0.9476014760147602
+  },
+  "episodes": 2000
+}

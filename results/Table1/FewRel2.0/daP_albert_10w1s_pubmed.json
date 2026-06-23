@@ -1,0 +1,31 @@
+{
+  "run_id": "daP_albert_10w1s_pubmed",
+  "model_name": "models/albert-base-v2",
+  "n_way": 10,
+  "k_shot": 1,
+  "dev_domain": "wiki",
+  "eval_domain": "pubmed",
+  "cl_weight": 1.0,
+  "weight_decay": 0.01,
+  "cl_numerator": "P",
+  "temperature": 0.5,
+  "seed": 42,
+  "best_dev_acc": 0.9375999760627747,
+  "test_acc": 0.43489998777707417,
+  "test_acc_std": 0.0811582172931032,
+  "test_acc_ci95": 0.0064940098795328045,
+  "n_test_episodes": 600,
+  "per_relation_acc": {
+    "occurs_in": 0.4196666666666667,
+    "classified_as": 0.24966666666666668,
+    "inheritance_type_of": 0.786,
+    "causative_agent_of": 0.22866666666666666,
+    "ingredient_of": 0.5156666666666667,
+    "gene_plays_role_in_process": 0.338,
+    "is_normal_tissue_origin_of_disease": 0.39666666666666667,
+    "biological_process_involves_gene_product": 0.558,
+    "gene_found_in_organism": 0.46,
+    "is_primary_anatomic_site_of_disease": 0.39666666666666667
+  },
+  "episodes": 2000
+}
