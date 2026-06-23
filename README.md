@@ -44,7 +44,6 @@ Final/
 ## 1. Environment Setup
 
 ```bash
-virtualenv ~/envs/fewrel && source ~/envs/fewrel/bin/activate
 pip install -r requirements.txt
 ```
 
